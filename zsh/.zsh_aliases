@@ -1,0 +1,3 @@
+alias week="wget -O - vecka.nu 2>/dev/null | grep 'week = ' | sed 's/^ *//g;s/;//g' | cut -d' ' -f 3 "
+alias open="xdg-open"
+alias vim="nvim"
