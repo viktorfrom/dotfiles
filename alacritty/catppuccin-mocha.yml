@@ -42,7 +42,7 @@ colors:
 
     # Normal colors
     normal:
-        black: "#45475A" # surface1
+        #black: "#45475A" # surface1
         red: "#F38BA8" # red
         green: "#A6E3A1" # green
         yellow: "#F9E2AF" # yellow
@@ -76,4 +76,3 @@ colors:
     indexed_colors:
         - { index: 16, color: "#FAB387" }
         - { index: 17, color: "#F5E0DC" }
-
