@@ -13,8 +13,20 @@ alias s='source ~/.zshrc'
 alias v="nvim"
 alias vi="nvim"
 alias vim="nvim"
+alias svim="sudo nvim"
 
+# Attaches tmux to the last session; creates a new session if none exists.
+alias t='tmux attach || tmux new-session'
+
+# Attaches tmux to a session (example: ta portal)
 alias ta='tmux attach -t'
+
+# Creates a new session
+alias tn='tmux new-session'
+#alias tn='tmux new -s (pwd | sed 's/.*\///g')'
+
+# Lists all ongoing sessions
+alias tl='tmux list-sessions'
 
 # GIT ALIASES -----------------------------------------------------------------
 alias gc='git commit'

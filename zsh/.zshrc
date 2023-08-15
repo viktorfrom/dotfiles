@@ -100,4 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # exmaple aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source $HOME/.zsh_aliases
+source ~/.zsh_profile
+source ~/.zsh_aliases
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
