@@ -28,6 +28,12 @@ alias tn='tmux new-session'
 # Lists all ongoing sessions
 alias tl='tmux list-sessions'
 
+alias cb='cmake --build . && ctest --rerun-failed --output-on-failure && ./special-meme-lang-exe'
+
+alias cbf='clang-format --style=google src/*.cpp src/*.hpp test/*.cpp -i'
+
+alias cr='cargo run'
+
 # GIT ALIASES -----------------------------------------------------------------
 alias gc='git commit'
 alias gco='git checkout'
